@@ -1,12 +1,7 @@
 # Parks Map in Bogota - Colombia
 
 This is the final project of the Udacity Front-End Nanodegree.
-I created the map with Bogota parks with the ability to search
-
-## Overview
-
-I built a single page application featuring a map of some important sights in Thessaloniki, Greece, the city I live in. I added functionality to this map including highlighted locations, third-party data about those locations and various ways to browse the content.
-
+I created the map with Bogota parks with the ability to search.
 
 ## Getting Started
 
