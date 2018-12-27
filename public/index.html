@@ -20,7 +20,11 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Bogota Map</title>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpD3XZpiUMncwPAGIBjKbiPruAWZ6ByyU"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpD3XZpiUMncwPAGIBjKbiPruAWZ6ByyU"></script>
+    <script>
+    function gm_authFailure() {
+      alert("Google Map Failed to Load. Please check if API key is valid.");}
+    </script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   </head>
   <body>
