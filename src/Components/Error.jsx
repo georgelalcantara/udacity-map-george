@@ -8,7 +8,7 @@ export default class Error extends React.Component {
 	render() {
 			return (
 				<div>
-					<h1 className="Error">Park List Could Not Be Retrieved</h1>
+					<h2 className="Error">Park List Could Not Be Retrieved. Please check if FourSquare API is valid.</h2>
 				</div>
 				)
 		}
