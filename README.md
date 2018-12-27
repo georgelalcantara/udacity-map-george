@@ -16,7 +16,16 @@ $ npm install react-google-maps --save
 $ npm install escape-string-regexp --save
 $ npm start
 ```
-* open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* open [localhost:3000](http://localhost:3000) to view it in the browser.
+
+### Service Worker Note
+
+The `Service Worker` (offline capabilities) only works on the `production mode`. For this mode you need to run:
+```
+$ npm install -g serve
+$ serve -s build
+```
+* open [localhost:5000](http://localhost:5000) to view it in the browser.
 
 ## Dependencies & Tools Used
 
