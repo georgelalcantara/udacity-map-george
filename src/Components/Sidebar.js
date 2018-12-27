@@ -15,9 +15,11 @@ class Sidebar extends Component {
     return (
     	<div>
 			{filtParks && (
-			<ul className="sideList">
+			<ul role="list" aria-labelledby="park list"className="sideList">
 				{filtParks.map(park => (
 					<li
+					role="listitem"
+					aria-labelledby="park name"
 					className="parksList"
 					tabIndex="0"
 					key={park.id}
